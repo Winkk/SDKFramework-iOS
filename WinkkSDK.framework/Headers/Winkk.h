@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
  @returns the default Winkk SDK instance
  */
 
-+(id)sharedManager;
++(instancetype)sharedManager;
 
 
 
