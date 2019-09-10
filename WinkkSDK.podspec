@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-s.name         = "WinkkSDK"
-s.version      = "0.0.2"
+s.name         = "WinKKSDK"
+s.version      = "0.0.4"
 s.summary      = "WinKK SDK framework allows to integrate apps with Winkk Pass logon system"
 s.description  = <<-DESC
 WinKK SDK framework allows to integrate apps with Winkk Pass logon system
