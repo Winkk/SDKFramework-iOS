@@ -2,7 +2,7 @@ To deploy a new version of the SDK:
 
 1. Open `WinkkSDK/WinkkSDK.xcodeproj` located in `Winkk SDK iOS` folder (source codes project located in SVN repository).
 
-2. Launch archivation.
+2. Select any simulator as build destination and run build. Then select "Generic iOS Device" and launch archivation.
 
 3. After the completed archivation a folder with symlink to framework will appear.
 
@@ -12,11 +12,11 @@ To deploy a new version of the SDK:
 
 6. Make sure the framework is added: `git add WinkkSDK.framework`.
 
-7. Perform commit with some update message: `git commit -m "Updated WinkkSDK.framework"`.
+7. Update podspec file depending on your needs.
 
-8. Tag a new release with the same version to be set in podspec: `git tag -a 0.0.1 -m "Version 0.0.1"`.
+8. Perform commit with some update message: `git commit -m "Updated WinkkSDK.framework"`.
 
-9. Update podspec file depending on your needs.
+9. Tag a new release with the same version to be set in podspec: `git tag -a 0.0.1 -m "Version 0.0.1"`.
 
 10. Push everything:
 ```
